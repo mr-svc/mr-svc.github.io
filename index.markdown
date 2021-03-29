@@ -10,6 +10,7 @@ title: "Singing Voice Conversion with Variable Length Embedding"
 <li>Shoutong Wang (Zhejiang University) </li>
 <li>Jinglin Liu (Zhejiang University) </li>
 <li>Yi Ren (Zhejiang University) </li>
+<li>Zhen Wang (State Key Laboratory of Media Convergence Production Technology and Systems) </li>
 <li>Changliang Xu (State Key Laboratory of Media Convergence Production Technology and Systems) </li>
 <li>Zhou Zhao (Zhejiang University) </li>
 
