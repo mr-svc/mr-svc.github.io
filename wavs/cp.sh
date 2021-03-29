@@ -1,0 +1,2 @@
+cp "/Users/wangst/TTS/is-eval/gender-eval/SSB1837_2000000_custompwg_generated_files-1.0-without/wavs/[P][xiaoma_1182_2]r u g uo ai g ao s u uo z ou x ia q v.wav" without-spk1-1182_2.wav
+cp "/Users/wangst/TTS/is-eval/gender-eval/SSB0273_2000000_custompwg_generated_files-1.0-without/wavs/[P][xiaoma_1182_2]r u g uo ai g ao s u uo z ou x ia q v.wav" without-spk2-1182_2.wav

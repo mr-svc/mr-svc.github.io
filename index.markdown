@@ -22,6 +22,148 @@ Singing voice conversion (SVC) is to convert the singing voice sung by a source 
 ## Synthesis Results
 
 
-## Inter-gender and Intra-gender Conversion
+Speaker 1 reference: {% include embed-audio.html src="/wavs/ref1.wav" %}
 
-## Controlled Singing Voice Generation
+
+<table><thead>
+<tr>
+<th style="text-align: center">GT mel + Vocoder</th>
+<th style="text-align: center">Proposed-model</th>
+<th style="text-align: center">Baseline</th>
+<th style="text-align: center">Multi-ref-only</th>
+<th style="text-align: center">Single-head</th>
+</tr></thead><tbody>
+<tr>
+{% include embed-audio-cell.html src="/wavs/gt-373_3.wav" %}
+{% include embed-audio-cell.html src="/wavs/proposed-model-spk1-373_3.wav" %}
+{% include embed-audio-cell.html src="/wavs/baseline-spk1-373_3.wav" %}
+{% include embed-audio-cell.html src="/wavs/mul-ref-only-spk1-373_3.wav" %}
+{% include embed-audio-cell.html src="/wavs/single-head-spk1-373_3.wav" %}
+</tr>
+<tr>
+{% include embed-audio-cell.html src="/wavs/gt-506_25.wav" %}
+{% include embed-audio-cell.html src="/wavs/proposed-model-spk1-506_25.wav" %}
+{% include embed-audio-cell.html src="/wavs/baseline-spk1-506_25.wav" %}
+{% include embed-audio-cell.html src="/wavs/mul-ref-only-spk1-506_25.wav" %}
+{% include embed-audio-cell.html src="/wavs/single-head-spk1-506_25.wav" %}
+</tr>
+<tr>
+{% include embed-audio-cell.html src="/wavs/gt-1083_2.wav" %}
+{% include embed-audio-cell.html src="/wavs/proposed-model-spk1-1083_2.wav" %}
+{% include embed-audio-cell.html src="/wavs/baseline-spk1-1083_2.wav" %}
+{% include embed-audio-cell.html src="/wavs/mul-ref-only-spk1-1083_2.wav" %}
+{% include embed-audio-cell.html src="/wavs/single-head-spk1-1083_2.wav" %}
+</tr>
+<tr>
+{% include embed-audio-cell.html src="/wavs/gt-1182_2.wav" %}
+{% include embed-audio-cell.html src="/wavs/proposed-model-spk1-1182_2.wav" %}
+{% include embed-audio-cell.html src="/wavs/baseline-spk1-1182_2.wav" %}
+{% include embed-audio-cell.html src="/wavs/mul-ref-only-spk1-1182_2.wav" %}
+{% include embed-audio-cell.html src="/wavs/single-head-spk1-1182_2.wav" %}
+</tr>
+</tbody></table>
+
+
+Speaker 2 reference: {% include embed-audio.html src="/wavs/ref2.wav" %}
+
+<table><thead>
+<tr>
+<th style="text-align: center">GT mel + Vocoder</th>
+<th style="text-align: center">Proposed-model</th>
+<th style="text-align: center">Baseline</th>
+<th style="text-align: center">Multi-ref-only</th>
+<th style="text-align: center">Single-head</th>
+</tr></thead><tbody>
+<tr>
+{% include embed-audio-cell.html src="/wavs/gt-373_3.wav" %}
+{% include embed-audio-cell.html src="/wavs/proposed-model-spk2-373_3.wav" %}
+{% include embed-audio-cell.html src="/wavs/baseline-spk2-373_3.wav" %}
+{% include embed-audio-cell.html src="/wavs/mul-ref-only-spk2-373_3.wav" %}
+{% include embed-audio-cell.html src="/wavs/single-head-spk2-373_3.wav" %}
+</tr>
+<tr>
+{% include embed-audio-cell.html src="/wavs/gt-506_25.wav" %}
+{% include embed-audio-cell.html src="/wavs/proposed-model-spk2-506_25.wav" %}
+{% include embed-audio-cell.html src="/wavs/baseline-spk2-506_25.wav" %}
+{% include embed-audio-cell.html src="/wavs/mul-ref-only-spk2-506_25.wav" %}
+{% include embed-audio-cell.html src="/wavs/single-head-spk2-506_25.wav" %}
+</tr>
+<tr>
+{% include embed-audio-cell.html src="/wavs/gt-1083_2.wav" %}
+{% include embed-audio-cell.html src="/wavs/proposed-model-spk2-1083_2.wav" %}
+{% include embed-audio-cell.html src="/wavs/baseline-spk2-1083_2.wav" %}
+{% include embed-audio-cell.html src="/wavs/mul-ref-only-spk2-1083_2.wav" %}
+{% include embed-audio-cell.html src="/wavs/single-head-spk2-1083_2.wav" %}
+</tr>
+<tr>
+{% include embed-audio-cell.html src="/wavs/gt-1182_2.wav" %}
+{% include embed-audio-cell.html src="/wavs/proposed-model-spk2-1182_2.wav" %}
+{% include embed-audio-cell.html src="/wavs/baseline-spk2-1182_2.wav" %}
+{% include embed-audio-cell.html src="/wavs/mul-ref-only-spk2-1182_2.wav" %}
+{% include embed-audio-cell.html src="/wavs/single-head-spk2-1182_2.wav" %}
+</tr>
+</tbody></table>
+
+
+## Inter-gender and Intra-gender Conversion W/O Pitch Shift
+
+
+<table><thead>
+<tr>
+<th style="text-align: center">GT mel + Vocoder</th>
+<th style="text-align: center">Speaker 1</th>
+<th style="text-align: center">Speaker 2</th>
+</tr></thead><tbody>
+<tr>
+{% include embed-audio-cell.html src="/wavs/gt-373_3.wav" %}
+{% include embed-audio-cell.html src="/wavs/without-spk1-373_3.wav" %}
+{% include embed-audio-cell.html src="/wavs/without-spk2-373_3.wav" %}
+</tr>
+<tr>
+{% include embed-audio-cell.html src="/wavs/gt-506_25.wav" %}
+{% include embed-audio-cell.html src="/wavs/without-spk1-506_25.wav" %}
+{% include embed-audio-cell.html src="/wavs/without-spk2-506_25.wav" %}
+</tr>
+<tr>
+{% include embed-audio-cell.html src="/wavs/gt-1083_2.wav" %}
+{% include embed-audio-cell.html src="/wavs/without-spk1-1083_2.wav" %}
+{% include embed-audio-cell.html src="/wavs/without-spk2-1083_2.wav" %}
+</tr>
+<tr>
+{% include embed-audio-cell.html src="/wavs/gt-1182_2.wav" %}
+{% include embed-audio-cell.html src="/wavs/without-spk1-1182_2.wav" %}
+{% include embed-audio-cell.html src="/wavs/without-spk2-1182_2.wav" %}
+</tr>
+</tbody></table>
+
+
+## Controlled Singing Voice Synthesis
+
+
+<!-- <table><thead>
+<tr>
+<th style="text-align: center">Low Pitch</th>
+<th style="text-align: center">Normal</th>
+<th style="text-align: center">High Pitch</th>
+</tr></thead><tbody>
+<tr>
+{% include embed-audio-cell.html src="/wavs/gt-373_3.wav" %}
+{% include embed-audio-cell.html src="/wavs/without-spk1-373_3.wav" %}
+{% include embed-audio-cell.html src="/wavs/without-spk2-373_3.wav" %}
+</tr>
+<tr>
+{% include embed-audio-cell.html src="/wavs/gt-506_25.wav" %}
+{% include embed-audio-cell.html src="/wavs/without-spk1-506_25.wav" %}
+{% include embed-audio-cell.html src="/wavs/without-spk2-506_25.wav" %}
+</tr>
+<tr>
+{% include embed-audio-cell.html src="/wavs/gt-1083_2.wav" %}
+{% include embed-audio-cell.html src="/wavs/without-spk1-1083_2.wav" %}
+{% include embed-audio-cell.html src="/wavs/without-spk2-1083_2.wav" %}
+</tr>
+<tr>
+{% include embed-audio-cell.html src="/wavs/gt-1182_2.wav" %}
+{% include embed-audio-cell.html src="/wavs/without-spk1-1182_2.wav" %}
+{% include embed-audio-cell.html src="/wavs/without-spk2-1182_2.wav" %}
+</tr>
+</tbody></table> -->
