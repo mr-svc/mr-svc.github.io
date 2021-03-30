@@ -1,11 +1,4 @@
----
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
-layout: page
-title: "Singing Voice Conversion with Variable Length Embedding"
-
----
+<!-- # Singing Voice Conversion with Variable Length Embedding" -->
 
 <li>Shoutong Wang (Zhejiang University) </li>
 <li>Jinglin Liu (Zhejiang University) </li>
@@ -105,7 +98,7 @@ Speaker 2 reference: {% include embed-audio.html src="/wavs/ref2.wav" %}
 </tbody></table>
 
 
-## Inter-gender and Intra-gender Conversion W/O Pitch Shift
+## Conversion w/o Pitch Shift
 
 
 <table><thead>
