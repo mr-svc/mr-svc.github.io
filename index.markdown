@@ -140,30 +140,25 @@ Speaker 2 reference: {% include embed-audio.html src="/wavs/ref2.wav" %}
 ## Controlled Singing Voice Synthesis
 
 
-<!-- <table><thead>
+<table><thead>
 <tr>
 <th style="text-align: center">Low Pitch</th>
 <th style="text-align: center">Normal</th>
 <th style="text-align: center">High Pitch</th>
 </tr></thead><tbody>
 <tr>
-{% include embed-audio-cell.html src="/wavs/gt-373_3.wav" %}
-{% include embed-audio-cell.html src="/wavs/without-spk1-373_3.wav" %}
-{% include embed-audio-cell.html src="/wavs/without-spk2-373_3.wav" %}
+{% include embed-audio-cell.html src="/wavs/low-373_0.wav" %}
+{% include embed-audio-cell.html src="/wavs/normal-373_0.wav" %}
+{% include embed-audio-cell.html src="/wavs/high-373_0.wav" %}
 </tr>
 <tr>
-{% include embed-audio-cell.html src="/wavs/gt-506_25.wav" %}
-{% include embed-audio-cell.html src="/wavs/without-spk1-506_25.wav" %}
-{% include embed-audio-cell.html src="/wavs/without-spk2-506_25.wav" %}
+{% include embed-audio-cell.html src="/wavs/low-373_8.wav" %}
+{% include embed-audio-cell.html src="/wavs/normal-373_8.wav" %}
+{% include embed-audio-cell.html src="/wavs/high-373_8.wav" %}
 </tr>
 <tr>
-{% include embed-audio-cell.html src="/wavs/gt-1083_2.wav" %}
-{% include embed-audio-cell.html src="/wavs/without-spk1-1083_2.wav" %}
-{% include embed-audio-cell.html src="/wavs/without-spk2-1083_2.wav" %}
+{% include embed-audio-cell.html src="/wavs/low-373_14.wav" %}
+{% include embed-audio-cell.html src="/wavs/normal-373_14.wav" %}
+{% include embed-audio-cell.html src="/wavs/high-373_14.wav" %}
 </tr>
-<tr>
-{% include embed-audio-cell.html src="/wavs/gt-1182_2.wav" %}
-{% include embed-audio-cell.html src="/wavs/without-spk1-1182_2.wav" %}
-{% include embed-audio-cell.html src="/wavs/without-spk2-1182_2.wav" %}
-</tr>
-</tbody></table> -->
+</tbody></table>
