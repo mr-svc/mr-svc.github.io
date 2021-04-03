@@ -1,5 +1,7 @@
 <!-- # Singing Voice Conversion with Variable Length Embedding" -->
 
+## Authors
+
 <li>Shoutong Wang (Zhejiang University) </li>
 <li>Jinglin Liu (Zhejiang University) </li>
 <li>Yi Ren (Zhejiang University) </li>
@@ -21,7 +23,7 @@ Speaker 1 reference: {% include embed-audio.html src="/wavs/ref1.wav" %}
 <table><thead>
 <tr>
 <th style="text-align: center">GT mel + Vocoder</th>
-<th style="text-align: center">Proposed-model</th>
+<th style="text-align: center">MR-SVC</th>
 <th style="text-align: center">Baseline</th>
 <th style="text-align: center">Multi-ref-only</th>
 <th style="text-align: center">Single-head</th>
@@ -62,7 +64,7 @@ Speaker 2 reference: {% include embed-audio.html src="/wavs/ref2.wav" %}
 <table><thead>
 <tr>
 <th style="text-align: center">GT mel + Vocoder</th>
-<th style="text-align: center">Proposed-model</th>
+<th style="text-align: center">MR-SVC</th>
 <th style="text-align: center">Baseline</th>
 <th style="text-align: center">Multi-ref-only</th>
 <th style="text-align: center">Single-head</th>
