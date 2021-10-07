@@ -21,7 +21,7 @@
 # Build settings
 # theme: minima
 theme: jekyll-theme-cayman
-title: ["MR-SVC: Singing Voice Conversion with Attention-Based Multi-Reference Encoder"]
+title: ["MR-SVS: Singing Voice Synthesis with Multi-Reference Encoder"]
 github:
   is_project_page: false
 # plugins:
