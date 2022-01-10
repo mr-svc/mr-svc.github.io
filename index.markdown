@@ -9,9 +9,13 @@
 <li>Changliang Xu (State Key Laboratory of Media Convergence Production Technology and Systems) </li>
 <li>Zhou Zhao (Zhejiang University) </li>
 
+  ![image](figs/arch.png)
+
 ## Abstract
 
   Multi-speaker singing voice synthesis is to generate the singing voice sung by different speakers. To generalize to new speakers, previous zero-shot singing adaptation methods obtain the timbre of the target speaker with a fixed-size embedding from single reference audio. However, they face several challenges: 1) the fixed-size speaker embedding is not powerful enough to capture full details of the target timbre; 2) single reference audio does not contain sufficient timbre information of the target speaker; 3) the pitch inconsistency between different speakers also leads to a degradation in the generated voice. In this paper, we propose a new model called MR-SVS to tackle these problems. Specifically, we employ both a multi-reference encoder and a fixed-size encoder to encode the timbre of the target speaker from multiple reference audios. The Multi-reference encoder can capture more details and variations of the target timbre. Besides, we propose a well-designed pitch shift method to address the pitch inconsistency problem. Experiments indicate that our method outperforms the baseline method both in naturalness and similarity.
+
+
 
 ## Synthesis Results
 
